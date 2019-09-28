@@ -1,15 +1,9 @@
 {
   "version": 2,
   "scope": "open-tree",
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@now/next"
-    }
-  ],
   "build": {
     "env": {
-      "NODE_ENV": "production",
+      "USE_SLACK": "true",
       "SLACK_TOKEN": "@slack-token"
     }
   }
