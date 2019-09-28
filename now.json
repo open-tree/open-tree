@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "scope": "open-tree"
+  "scope": "open-tree",
+  "build": {
+    "env": {
+      "NODE_ENV": "production",
+      "SLACK_TOKEN": "@slack-token"
+    }
+  }
 }
