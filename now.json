@@ -3,7 +3,6 @@
   "scope": "open-tree",
   "build": {
     "env": {
-      "USE_SLACK": "true",
       "SLACK_TOKEN": "@slack-token"
     }
   }
