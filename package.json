@@ -6,6 +6,7 @@
   "author": "maxchehab <maxchehab@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@slack/web-api": "5.2.0",
     "next": "9.0.7",
     "react": "16.10.0",
     "react-dom": "16.10.0"
