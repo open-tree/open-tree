@@ -2,7 +2,7 @@ import { NextApiRequest, NextApiResponse } from "next";
 
 import { HttpException } from "../exceptions/http.exception";
 
-type Route = (req: NextApiRequest, res: NextApiResponse) => void;
+type Route = (req: NextApiRequest, res: NextApiResponse) => Promise<void>;
 
 export function Lambda(route: Route) {
   return (req: NextApiRequest, res: NextApiResponse) => {
